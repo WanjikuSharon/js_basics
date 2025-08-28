@@ -15,3 +15,17 @@ function getTempOfTmrw(avgTemperatures) {
 }
 
 console.log(getTempOfTmrw(AVG_TEMPERATURE)); // Outputs: 79.5
+
+
+//nested objects
+const LOCAL_FORECAST = {
+    today: { min: 72, max: 83 },
+    tomorrow: { min: 75, max: 88 }
+};
+
+function getAvgTemp(forecast) {
+    "use strict";
+
+    const { tomorrow: { max: getAvgTemp } } = forecast;
+    return getAvgTemp;
+}
