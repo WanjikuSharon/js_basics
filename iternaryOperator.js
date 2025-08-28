@@ -12,4 +12,16 @@ const myConcat = (arr1, arr2) => arr1.concat(arr2);
 
 console.log(myConcat([1, 2], [3, 4, 5])); // Outputs: [1, 2, 3, 4, 5]
 
+// a reusable function to calculate area, diameter, etc
+const calculate = function(radius, logic){ 
+    const output = [];
+    for(let i = 0; i < radius.length; i++){
+        output.push(logic(radius[i]))
+    }
+    return output;
+}
+
+console.log(calculate(radius, area));
+console.log(calculate(radius, diameter));
+
 //arrow functions with higher order functions
