@@ -7,8 +7,8 @@ function myFunction(str) {
 
 //with Radix
 function myRadix() {
-    return parseInt("10011", 2);
+    return parseInt(rdx);
 }
 
-var rdx = myRadix();
+var rdx = myRadix("10011", 2);
 console.log(rdx); // Outputs: 19
