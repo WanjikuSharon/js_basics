@@ -6,11 +6,11 @@ const { x: a, y: b, z: c } = voxel;
 const AVG_TEMPERATURE = {
     today: 77.0,
     tomorrow: 79.5
-};
+};//Declared variable
 
 function getTempOfTmrw(avgTemperatures) {
     "use strict";
-    const { tomorrow: tempOfTomorrow } = avgTemperatures;
+    const { tomorrow: tempOfTomorrow } = avgTemperatures;//deconstructing operator
     return tempOfTomorrow;
 }
 
