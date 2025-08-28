@@ -4,7 +4,7 @@ function checkSign(num) {
 
 console.log(checkSign(-11));  
 
-//anonymous funcrion
+//anonymous function
 const magic = () => new Date();
 
 //arrow functions with parameter
@@ -30,7 +30,7 @@ console.log(calculate([5], area));
 console.log(calculate([5], diameter));
 console.log(calculate([5], circumference));
 
-//arrow functions with higher order functions
+
 // More concise version using arrow function and map
 const calculateArrow = (radiusArray, logic) => radiusArray.map(radius => logic(radius));
 
@@ -41,3 +41,5 @@ console.log(calculateArrow([3, 5, 7], diameter));
 // You can also use it with inline arrow functions
 console.log("Using inline functions:");
 console.log(calculateArrow([2, 4], (r) => r * r)); // Square of radius
+
+//arrow functions with higher order functions
