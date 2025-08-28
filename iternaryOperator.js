@@ -6,3 +6,6 @@ console.log(checkSign(-11));
 
 //anonymous funcrion
 const magic = () => new Date();
+
+//arrow functions with parameter
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
