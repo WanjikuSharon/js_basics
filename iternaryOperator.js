@@ -4,4 +4,5 @@ function checkSign(num) {
 
 console.log(checkSign(-11));  
 
-//
+//anonymous funcrion
+const magic = () => new Date();
