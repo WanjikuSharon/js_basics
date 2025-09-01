@@ -15,3 +15,9 @@ const half = (function () {
 })();
 console.log(stats);
 console.log(half(stats));
+
+
+
+
+
+

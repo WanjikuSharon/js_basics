@@ -29,3 +29,11 @@ function getAvgTemp(forecast) {
     const { tomorrow: { max: getAvgTemp } } = forecast;
     return getAvgTemp;
 }
+
+//Array destructuring
+const [firstName, lastName, middleName] = ['John', 'Doe', 'Smith'];
+
+console.log(firstName);
+console.log(lastName);
+console.log(middleName);
+console.log(firstName + " " + middleName + " " + lastName);
