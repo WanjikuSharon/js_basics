@@ -11,8 +11,8 @@ for (const income of incomes) {
 console.log(total);
 
 //Get characters in a name or sentences
-let fullName = ["My name is Ivy Stephanie Nudngu"]
+let fullName = "My name is Ivy Stephanie Nudngu";
 
-for (char in fullName) {
-    console.log(char)
+for (const char in fullName) {
+    console.log(char);
 }
