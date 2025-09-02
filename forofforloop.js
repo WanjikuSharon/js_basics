@@ -13,6 +13,6 @@ console.log(total);
 //Get characters in a name or sentences
 let fullName = "My name is Ivy Stephanie Nudngu";
 
-for (const char in fullName) {
+for (const char of fullName) {
     console.log(char);
 }
