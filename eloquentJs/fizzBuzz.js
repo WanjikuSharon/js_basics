@@ -31,5 +31,5 @@ for (let num = 1; num <= 100; num++) {
   let output = "";
   if (n % 3 == 0) output += "Fizz";
   if (n % 5 == 0) output += "Buzz";
-  console.log(output || n);
+  console.log(output || num);
 }
