@@ -10,7 +10,7 @@
 // out a significant percentage of programmer candidates. So if you solved
 // it, your labor market value just went up.)
 
-let count = 0;
+let count = "";
 for (num = 1; num <=100; num++){
   count += 1;
   if (num % 3 === 0){
@@ -19,4 +19,5 @@ for (num = 1; num <=100; num++){
   else if (num % 5 === 0){
     console.log("Buzz")
     }
+    console.log(count || num);
   }
