@@ -10,18 +10,26 @@
 // out a significant percentage of programmer candidates. So if you solved
 // it, your labor market value just went up.)
 
+//my solution that worked
+// for (let num = 1; num <= 100; num++) {
+//     if (num % 3 === 0 && num % 5 === 0) {
+//         console.log("FizzBuzz")
+//     }
+//     else if (num % 3 === 0) {
+//         console.log("Fizz")
+//     }
+//     else if (num % 5 === 0) {
+//         console.log("Buzz")
+//     }
+//     else {
+//         console.log(num);
+//     }
+// }
 
-for (num = 1; num <= 100; num++) {
-    if (num % 3 === 0 && num % 5 === 0) {
-        console.log("FizzBuzz")
-    }
-    else if (num % 3 === 0) {
-        console.log("Fizz")
-    }
-    else if (num % 5 === 0) {
-        console.log("Buzz")
-    }
-    else {
-        console.log(num);
-    }
+//solution provided - gave the same results
+for (let num = 1; num <= 100; num++) {
+  let output = "";
+  if (n % 3 == 0) output += "Fizz";
+  if (n % 5 == 0) output += "Buzz";
+  console.log(output || n);
 }
